@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Samuel Agboola | Cybersecurity Portfolio</title>
+    <meta name="description" content="Cybersecurity portfolio and project log by Samuel Agboola." />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="container topbar-inner">
+            <a class="brand" href="index.html">Samuel Agboola</a>
+            <nav class="nav">
+                <a href="#about">About</a>
+                <a href="#cv">CV</a>
+                <a href="#projects">Projects</a>
+                <a href="#achievements">Achievements</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <p class="pill">Cybersecurity Portfolio + Project Log</p>
+            <h1>Building proof of skills through projects, write-ups, and steady progress.</h1>
+            <p class="muted">
+                I am a cybersecurity graduate student (graduating May 2026) with a strong interest in Security Operations Center work, monitoring, incident handling, and practical security projects.
+            </p>
+
+            <div class="hero-actions">
+                <a class="btn" href="#projects">View Project Log</a>
+                <a class="btn ghost" href="#cv">Open CV Summary</a>
+            </div>
+
+            <div class="mini-cards">
+                <div class="card">
+                    <div class="card-title">Focus</div>
+                    <div class="card-text muted">Security Operations Center readiness, detection, incident response foundations.</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Style</div>
+                    <div class="card-text muted">Short, defendable write-ups: what I built, how it worked, what I learned.</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Tracking</div>
+                    <div class="card-text muted">Each project update gets its own dated page for easy review.</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About me</h2>
+            <p class="muted">
+                I am transitioning into cybersecurity with a practical, documentation-first approach. My background includes structured operations, accountability, and working in high-responsibility environments. I currently work as a research assistant and Community
+                Employment Specialist while completing my degree.
+            </p>
+            <div class="callout">
+                <strong>What you will see here:</strong>
+                <div class="muted">hands-on projects, labs, write-ups, and clear proof of progress.</div>
+            </div>
+        </section>
+
+        <section id="cv" class="section">
+            <h2>CV summary</h2>
+            <ul class="list">
+                <li><strong>Role target:</strong> Security Operations Center Analyst (entry level), Cybersecurity Analyst, Governance Risk and Compliance Analyst (entry level).</li>
+                <li><strong>Strengths:</strong> documentation, process discipline, technical learning speed, communication, and analytical thinking.</li>
+                <li><strong>Technical themes:</strong> network traffic concepts, security event investigation workflow, basic scripting, labs and reporting.</li>
+            </ul>
+            <p class="muted small">
+                Tip: When you’re ready, I can convert this into a full CV page and also add a “Resume PDF” download link.
+            </p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Project log</h2>
+            <p class="muted">
+                Each entry is a dated page. I only add pages tied to a project name and date.
+            </p>
+
+            <div class="project-grid">
+                <a class="project" href="projects/2026-02-11-deepfake-detection-workflow.html">
+                    <div class="project-top">
+                        <span class="tag">Project</span>
+                        <span class="muted small">2026-02-11</span>
+                    </div>
+                    <h3>Deepfake Detection Workflow (Local Setup + Repro)</h3>
+                    <p class="muted">Restarted from scratch, focused on reproducible training workflow and results tracking.</p>
+                </a>
+
+                <a class="project" href="projects/2026-02-11-packet-sniffing-spoofing-lab.html">
+                    <div class="project-top">
+                        <span class="tag">Lab</span>
+                        <span class="muted small">2026-02-11</span>
+                    </div>
+                    <h3>Packet Sniffing and Spoofing Lab</h3>
+                    <p class="muted">Built and tested sniffing/spoofing programs and documented behavior and risks.</p>
+                </a>
+            </div>
+
+            <div class="callout">
+                <strong>How to add a new update:</strong>
+                <div class="muted">Create a new HTML file in <code>projects/</code> named <code>YYYY-MM-DD-project-name.html</code>, then add it to this list.</div>
+            </div>
+        </section>
+
+        <section id="achievements" class="section">
+            <h2>Achievements and relevance</h2>
+            <ul class="list">
+                <li><strong>Project discipline:</strong> I document what I built, what worked, what failed, and what I changed, so progress is reviewable.</li>
+                <li><strong>Cybersecurity alignment:</strong> focused on detection mindset, network fundamentals, and repeatable security workflows.</li>
+                <li><strong>Career focus:</strong> building evidence for Security Operations Center roles through consistent hands-on output.</li>
+            </ul>
+        </section>
+
+        <footer class="footer">
+            <div class="muted small">© <span id="year"></span> Samuel Agboola • Built for GitHub Pages</div>
+        </footer>
+    </main>
+
+    <script>
+        document.getElementById("year").textContent = String(new Date().getFullYear());
+    </script>
+</body>
+
+</html>
